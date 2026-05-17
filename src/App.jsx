@@ -171,7 +171,7 @@ export default function App() {
             <div className="dotMatrix" />
           </div>
           <div className="metricGlass">
-            <strong>20+</strong>
+            <strong>15+</strong>
             <span>Years in Enterprise<br />Transformation</span>
             <i className="sparkLine" />
           </div>
