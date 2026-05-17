@@ -148,7 +148,7 @@ export default function App() {
         <nav aria-label="Primary navigation">
           {navItems.map((item) => <a key={item} href={`#${item.toLowerCase()}`}>{item}</a>)}
         </nav>
-        <a className="navCta" href="mailto:kirtan.dave@proton.me">Discuss Opportunity <Icon name="arrow" /></a>
+        <a className="navCta" href="mailto:kirtandave@gmail.com">Discuss Opportunity <Icon name="arrow" /></a>
       </header>
 
       <section id="story" className="hero sectionPad">
@@ -160,7 +160,7 @@ export default function App() {
             {chips.map((chip, index) => <span key={chip} className="chip"><Icon name={index === 0 ? 'cube' : index === 1 ? 'shield' : index === 2 ? 'spark' : index === 3 ? 'globe' : 'check'} />{chip}</span>)}
           </div>
           <div className="heroActions">
-            <a className="primaryBtn" href="mailto:kirtan.dave@proton.me">Discuss a transformation role <Icon name="arrow" /></a>
+            <a className="primaryBtn" href="mailto:kirtandave@gmail.com">Discuss a transformation role <Icon name="arrow" /></a>
             <a className="secondaryBtn" href="/Kirtan-Dave-CV.pdf" download>Download CV <Icon name="download" /></a>
           </div>
         </div>
@@ -256,11 +256,11 @@ export default function App() {
           <p>Open to leadership roles and advisory partnerships in ERP, Digital and AI Transformation.</p>
         </div>
         <div className="contactStack">
-          <a href="mailto:kirtan.dave@proton.me"><Icon name="mail" /> kirtan.dave@proton.me</a>
+          <a href="mailto:kirtandave@gmail.com"><Icon name="mail" /> kirtandave@gmail.com</a>
           <span><Icon name="pin" /> Dubai, UAE</span>
           <a href="https://www.linkedin.com/in/kirtandave" target="_blank" rel="noreferrer"><Icon name="linkedin" /> linkedin.com/in/kirtandave</a>
         </div>
-        <a className="primaryBtn" href="mailto:kirtan.dave@proton.me">Discuss Opportunity <Icon name="arrow" /></a>
+        <a className="primaryBtn" href="mailto:kirtandave@gmail.com">Discuss Opportunity <Icon name="arrow" /></a>
       </section>
 
       <footer className="footer">
