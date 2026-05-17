@@ -258,14 +258,14 @@ export default function App() {
         <div className="contactStack">
           <a href="mailto:kirtandave@gmail.com"><Icon name="mail" /> kirtandave@gmail.com</a>
           <span><Icon name="pin" /> Dubai, UAE</span>
-          <a href="https://www.linkedin.com/in/kirtandave" target="_blank" rel="noreferrer"><Icon name="linkedin" /> linkedin.com/in/kirtandave</a>
+          <a href="https://www.linkedin.com/in/kirtansdave/" target="_blank" rel="noreferrer"><Icon name="linkedin" /> linkedin.com/in/kirtansdave</a>
         </div>
         <a className="primaryBtn" href="mailto:kirtandave@gmail.com">Discuss Opportunity <Icon name="arrow" /></a>
       </section>
 
       <footer className="footer">
         <a className="brand smallBrand" href="#story"><span className="brandMark">KD</span><span><strong>Kirtan Dave</strong><small>© 2026 All rights reserved.</small></span></a>
-        <div><a href="#">Privacy Policy</a><a href="https://www.linkedin.com/in/kirtandave" target="_blank" rel="noreferrer">LinkedIn</a></div>
+        <div><a href="#">Privacy Policy</a><a href="https://www.linkedin.com/in/kirtansdave/" target="_blank" rel="noreferrer">LinkedIn</a></div>
       </footer>
     </main>
   );
