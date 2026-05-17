@@ -1,7 +1,7 @@
 {
-  "name": "kirtan-professional-brand-website",
+  "name": "kirtan-portfolio-website",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,18 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "latest",
-  "@vitejs/plugin-react": "latest",
-  "vite": "latest",
-  "react": "latest",
-  "react-dom": "latest",
-  "tailwindcss": "latest",
-  "lucide-react": "latest",
-  "framer-motion": "latest"
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
-  "devDependencies": {
-    "tailwindcss": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest"
-  }
+  "devDependencies": {}
 }

@@ -1,41 +1,30 @@
-# Kirtan Dave Professional Brand Website
+# Kirtan Portfolio Website — Vercel Deployment
 
-This is a Vite + React deployment package.
+## What changed
+- Rebuilt the UI to match the attached executive portfolio screenshot.
+- Added Vite configuration.
+- Added Vercel configuration with `npm run build` and `dist` output.
+- Added a cropped headshot asset under `public/assets/kirtan-headshot.png`.
 
-## Local preview
-
+## Local test
 ```bash
 npm install
 npm run dev
-```
-
-## Production build
-
-```bash
 npm run build
-npm run preview
 ```
 
-## Deploy to Vercel
+## Deploy through GitHub + Vercel
+1. Replace the existing project files with this package.
+2. Commit and push to the `main` branch.
+3. In Vercel Project Settings:
+   - Framework Preset: Vite
+   - Install Command: npm install
+   - Build Command: npm run build
+   - Output Directory: dist
+4. Trigger a redeploy.
 
-```bash
-npm i -g vercel
-vercel login
-vercel --prod
-```
+## Optional asset
+Place your PDF resume at:
+`public/Kirtan-Dave-CV.pdf`
 
-Build settings if using GitHub import:
-
-- Framework Preset: Vite
-- Build Command: `npm run build`
-- Output Directory: `dist`
-- Install Command: `npm install`
-
-## Assets
-
-The chapter graphics are already included in `/public`:
-
-- `/cyber_transformation_roadmap_interface.png`
-- `/global_execution_intelligence_dashboard_design.png`
-
-Add your real CV to `/public/Kirtan-Dave-CV.pdf` before publishing if you want the Download CV button to work.
+The Download CV button already points to this path.
